@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+</head>
+<body>
+	<center>
+		<h1>Signup here</h1>
+		<form action="ppreg.html" method="POST"></form>
+		<img src="https://blog.hubspot.com/hubfs/sign-up.jpg" width="700px">
+		<table>
+			<tr>
+				<td>First name :</td>
+				<td><input type="text" name="first name" placeholder="First name"></td>
+			</tr>
+			<tr>
+				<td>Last name :</td>
+				<td><input type="text" name="last name" placeholder="Last name" ></td>
+			</tr>
+			<tr>
+				<td>category :</td>
+				<td><input type="radio" name="category">Doctor
+					<input type="radio" name="category">Patient</td>
+			</tr>
+			<tr>
+				<td>Email :</td>
+				<td><input type="Email" name="Email" placeholder="Email"></td>
+			</tr>
+			<tr>
+				<td>User name :</td>
+				<td><input type="text" name="User name" placeholder="User name or Mobile number"></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" name="password" placeholder="Password"></td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td><input type="radio" name="Gender">Male
+					<input type="radio" name="Gender">Female
+					<input type="radio" name="Gender">Others</td>
+			</tr>
+			<tr>
+				<td>Mobile number :</td>
+				<td><input type="phone" name="contact" placeholder="Mobile number"></td>
+			</tr>
+			<tr>
+				<td><input type="Submit" name="Submit" value="Submit"></td>
+			</tr>
+		</table>
+	</center>
+</body>
+</html>

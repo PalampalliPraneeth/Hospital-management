@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login page</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\hp\Desktop\chandra\New folder\kkk.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="form-box">
+			<div class="button-box "> 
+				<div id = "btn"></div>
+				<button type="button" class="toggle-btn" onclick="adminlogin()">Admin login</button>
+				<button type="button" class="toggle-btn" onclick="login()">Doctor login</button>
+		</div>
+		<div class="social-icons">
+			<img src="C:\Users\hp\Desktop\chandra\New folder\fb.jpeg">
+			<img src="C:\Users\hp\Desktop\chandra\New folder\twitter.jpeg">
+			<img src="C:\Users\hp\Desktop\chandra\New folder\google.jpeg">
+		</div>
+		<form id="Adminlogin">
+			<input type="text" class="input-field" placeholder="Admin id" required>
+			<input type="Password" class="input-field" placeholder="Password" required="Password">
+			<button type="submit" class="submit-btn">Login</button>
+		</form>
+		<form id="Doctorlogin">
+			<input type="text" class="input-field" placeholder="Doctor id" required>
+			<input type="Password" class="input-field" placeholder="Password" required="Password">
+			<input type="checkbox" class="checkbox"><span>rember password</span>
+			<button type="submit" class="submit-btn">Login</button>
+		</form>
+		</div> 
+		</div>
+		<script >
+			var x = document.getElementById('Adminlogin')
+			var y = document.getElementById('Doctorlogin')
+			var z = document.getElementById("btn")
+			function register(){
+				x.style.left = "-400px";
+				y.style.left = "50px";
+				z.style.left = "110px"
+			}
+
+		</script>
+	</div>
+</body>
+</html>

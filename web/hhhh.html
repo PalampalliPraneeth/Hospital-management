@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="myscripts.js">
+		
+	</script>
+	<meta charset="utf-8">
+	 <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_P_blue-512.png"/>
+	<title>Signup</title>
+	<link rel="stylesheet" type="text/css" href="reg.css" >	
+</head>
+<header>
+	<div class="logo">
+			<h1 align="center">Signup here</h1>
+		<img src="logo.jpeg" height = 200px>	
+			<link rel="stylesheet" type="text/css" href="reg.css">
+				<script type="reg.js"></script>
+			</div>	
+<body>
+	<center>
+		<form  onsubmit="return validation()" method="POST" name="myform">
+		<table>
+			<tr>
+				<td>First name :</td>
+				<td><input type="text" name="firstname" id="firstname" placeholder="First name" class="input-field"></td>
+				<span id="firstname" class="text-danger font-weight-bold"></span>
+			</tr>
+			<tr>
+				<td>Last name :</td>
+				<td><input type="text" name="lastname" id="lastname" placeholder="Last name" class="input-field" ></td>
+				<span id="lastname" class="text-danger font-weight-bold"></span>
+			</tr>
+			<br><br>
+			<tr>
+				<td>category : </td>
+				<td><input type="radio" name="category" class="input-field" value = "1">Doctor
+					<input type="radio" name="category" class="input-field" value = "2">Patient</td>
+			</tr>
+			<tr>
+				<td>Email :</td>
+				<td><input type="Email" name="Email" placeholder="Email" class="input-field"></td>
+			</tr>
+			<tr>
+				<td>User name :</td>
+				<td><input type="text" name="Username" placeholder="Username" class="input-field"></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" name="password" placeholder="Password" class="input-field" id="password"></td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td><input type="radio" name="Gender" class="input-field "value = "1">Male
+					<input type="radio" name="Gender" class="input-field" value = "2">Female
+					<input type="radio" name="Gender" class="input-field" value = "2">Others</td>
+			</tr>
+			<tr>
+				<td>Mobile number :</td>
+				<td><input type="phone" name="contact" placeholder="Mobile number" class="input-field"></td>
+			</tr>
+			<tr>
+				<td>I agree to terms & conditions<input type="checkbox" value = "1" name="checkbox" required="checkbox" placeholder="I agree to terms & conditions"  class="input-field">
+            </tr>
+			<tr>
+				<td><input type="Submit" class="Submit"></td>
+			</tr>
+		</table>
+		</form>
+	</center>	
+</body>
+</header>
+</html>
